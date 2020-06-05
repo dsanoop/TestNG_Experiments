@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="This is a Test Suite">
+
+	<listeners>
+		<listener class-name="com.tng.listners.CustomListners"> 		</listener>
+	</listeners>
+
+	<test name="Test Nmae from testng.xml">
+		<packages>
+			<package name="com.tng.tests" />
+		</packages>
+	</test> <!-- Test1 -->
+</suite> <!-- This is a Test Suite -->
